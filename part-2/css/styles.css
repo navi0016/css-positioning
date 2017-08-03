@@ -16,14 +16,49 @@ body {
 }
 
 img {
-  max-width: 100%;
-}
+  width: 100%;
 
+}
 figure {
   margin: 0;
+}
+
+
+article.film {
+    border: 1px solid lightgrey;
+    padding: 15px;
+
+
 }
 
 .film {
   width: 50%;
   margin: 40px auto;
+}
+
+.film-poster {
+  display: inline-block;
+  position: relative;
+  width:40%;
+}
+
+.film-details {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+
+}
+
+.action-watch-later {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+}
+
+.action-like {
+  position: absolute;
+  bottom: 0;
+  right:0;
+  color: red;
 }
